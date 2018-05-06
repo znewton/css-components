@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 5.0.4 (2018-05-06)
+
+### Bug Fixes
+
+* **forms:** when a webkit pseudo (i.e. `::-webkit-datetime-edit`) is listed with other selectors, the entire ruleset is invalidated for non-Chrome browsers; move those selectors to standalone property sets.
+* **forms:** `::-ms-value` with `display: none` prevents form field values from displaying in IE.
+
 <a name="5.0.3"></a>
 ## [5.0.3](https://github.com/zendeskgarden/css-components/compare/@zendeskgarden/css-forms@5.0.2...@zendeskgarden/css-forms@5.0.3) (2018-04-30)
 
